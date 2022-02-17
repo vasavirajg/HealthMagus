@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.643 s <<< FAILURE! - in TestSuite
+testcases.LoginTest.Login[admin@lvtlabs.com, H@ppyJul123$, HealthMagus](1)  Time elapsed: 12.352 s  <<< FAILURE!
+java.lang.AssertionError
+	at testcases.LoginTest.Login(LoginTest.java:40)
+

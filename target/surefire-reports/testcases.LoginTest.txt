@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testcases.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.259 s <<< FAILURE! - in testcases.LoginTest
+Login(testcases.LoginTest)  Time elapsed: 11.81 s  <<< FAILURE!
+java.lang.AssertionError
+	at testcases.LoginTest.Login(LoginTest.java:26)
+

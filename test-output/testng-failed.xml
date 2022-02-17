@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="base.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="password" value="H@ppyJul123$"/>
+    <parameter name="clinic" value="HealthMagus"/>
+    <parameter name="user" value="admin@lvtlabs.com"/>
+    <classes>
+      <class name="testclasses.TestClassUsingListeners">
+        <methods>
+          <include name="testSuccessful"/>
+        </methods>
+      </class> <!-- testclasses.TestClassUsingListeners -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

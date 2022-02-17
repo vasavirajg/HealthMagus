@@ -1,0 +1,11 @@
+browser=chrome
+
+environment=qa
+
+qaurl=https://hmqa.lvtlabs.com//login
+devurl=http://192.168.60.104:4200/login
+
+title=HealthMagus
+
+
+name=raj
